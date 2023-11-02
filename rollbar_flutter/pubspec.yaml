@@ -6,17 +6,23 @@ documentation: https://docs.rollbar.com/docs/flutter#flutter
 repository: https://github.com/rollbar/rollbar-flutter
 
 environment:
-  sdk: '>=2.17.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: '>=3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  meta: ^1.7.0
-  connectivity_plus: ^4.0.0
-  sqlite3_flutter_libs: ^0.5.12
-  rollbar_common: ^1.1.0
-  rollbar_dart: ^1.3.0
+  meta: ^1.9.0
+  connectivity_plus: ^5.0.1
+  sqlite3_flutter_libs: ^0.5.17
+  rollbar_common:
+    git:
+      url: https://github.com/brighttank/rollbar-flutter.git
+      path: rollbar_common
+  rollbar_dart:
+    git:
+      url: https://github.com/brighttank/rollbar-flutter.git
+      path: rollbar_dart
 
 dependency_overrides:
   rollbar_common:
@@ -25,12 +31,12 @@ dependency_overrides:
     path: ../rollbar_dart
 
 dev_dependencies:
-  lints: ^2.0.0
-  flutter_lints: ^2.0.1
+  lints: ^3.0.0
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  build_runner: ^2.2.0
-  mockito: ^5.3.0
+  build_runner: ^2.4.6
+  mockito: ^5.4.2
 
 flutter:
   plugin:
