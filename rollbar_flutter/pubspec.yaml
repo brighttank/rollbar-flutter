@@ -12,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  meta: ^1.9.0
+  meta: ^1.10.0
   connectivity_plus: ^5.0.1
   sqlite3_flutter_libs: ^0.5.17
   rollbar_common:
