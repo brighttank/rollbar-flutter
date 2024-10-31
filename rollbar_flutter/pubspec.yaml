@@ -24,11 +24,11 @@ dependencies:
       url: https://github.com/brighttank/rollbar-flutter.git
       path: rollbar_dart
 
-dependency_overrides:
-  rollbar_common:
-    path: ../rollbar_common
-  rollbar_dart:
-    path: ../rollbar_dart
+#dependency_overrides:
+#  rollbar_common:
+#    path: ../rollbar_common
+#  rollbar_dart:
+#    path: ../rollbar_dart
 
 dev_dependencies:
   lints: ^3.0.0
