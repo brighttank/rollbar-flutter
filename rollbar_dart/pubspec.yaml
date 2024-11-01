@@ -14,9 +14,6 @@ dependencies:
   sqlite3: ^2.4.3
   collection: ^1.16.0
   stack_trace: ^1.10.0
-  rollbar_common: ^1.1.0
-
-dependency_overrides:
   rollbar_common:
     git:
       url: https://github.com/brighttank/rollbar-flutter.git
